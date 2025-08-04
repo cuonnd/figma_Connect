@@ -51,11 +51,11 @@ echo -e "\n${GREEN}✅ Setup completed successfully!${NC}"
 echo -e "\n${BLUE}📝 Next steps:${NC}"
 echo "1. Restart Cursor"
 echo "2. Open a Figma file"
-echo "3. Use: @figma join-channel cs3tqr8e"
+echo "3. Create channel in Figma and use: @figma join-channel YOUR_CHANNEL_NAME"
 echo "4. Try: @figma get-document-info"
 
 echo -e "\n${BLUE}📚 Available commands:${NC}"
-echo "npm run figma:init        # Setup everything"
+echo "npm run figma:init        # Setup everything" 
 echo "npm run figma:setup       # Setup current project"
 echo "npm run figma:test        # Test connection"
 

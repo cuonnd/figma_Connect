@@ -9,6 +9,8 @@
     "figma:setup": "chmod +x figma-mcp-quick.sh && ./figma-mcp-quick.sh",
     "figma:setup-global": "chmod +x setup-figma-mcp-global.sh && ./setup-figma-mcp-global.sh",
     "figma:test": "npx @sethdouglasford/mcp-figma@latest --help",
+    "figma:join": "npx @sethdouglasford/mcp-figma@latest --join-channel ${FIGMA_CHANNEL}",
+    "figma:auto-join": "node auto-join-channel.js",
     "figma:init": "npm run figma:setup-global && npm run figma:setup",
     "team:setup": "chmod +x team-setup.sh && ./team-setup.sh"
   },
